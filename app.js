@@ -17,7 +17,7 @@ function showResponse() {
     
   }else {
   if(num == 0) {
-    output.innerHTML = `Hii ${input}`;
+    output.innerHTML = `Sveiki, ${input}`;
     inputBox.value = "";
     inputBox.setAttribute("placeholder", "Wait for 2 secs");
     ++num;
